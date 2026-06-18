@@ -4,7 +4,7 @@ function payWithPaystack() {
 
     let handler = PaystackPop.setup({
 
-        key: pk_test_98e526f5664747e17ffcb837e8640fe3c4526afe,
+        key: 'pk_test_98e526f5664747e17ffcb837e8640fe3c4526afe',
 
         email: email,
 
