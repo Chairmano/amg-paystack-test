@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AMG Payment Sandbox</title>
+
     <link rel="stylesheet" href="style.css">
 
     <script src="https://js.paystack.co/v1/inline.js"></script>
@@ -11,9 +15,15 @@
 <div class="container">
     <h1>AMG Payment Sandbox</h1>
 
-    <input type="text" id="name" placeholder="Your Name">
+    <input
+        type="text"
+        id="name"
+        placeholder="Your Name">
 
-    <input type="email" id="email" placeholder="Your Email">
+    <input
+        type="email"
+        id="email"
+        placeholder="Your Email">
 
     <button onclick="payWithPaystack()">
         Pay GHS 10
